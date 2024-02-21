@@ -57,11 +57,14 @@ We use two existing dataset to do the experiments: KITTI and VIGOR. For our coll
 1. Training on KITTI:
 
     python train_kitti_3DoF.py --rotation_range 10 --stage 0 --level 1
+   
     python train_kitti_3DoF.py --rotation_range 10 --stage 1 --share 1
+   
     python train_kitti_3DoF.py --rotation_range 10 --stage 1 --share 1 --ConfGrd 1 --level 1
+   
     python train_kitti_3DoF.py --rotation_range 10 --stage 1 --share 1 --ConfGrd 1 --GPS_error_coe 1
 
-2. Training on VIGOR:
+3. Training on VIGOR:
     
     python train_VIGOR_2DoF.py
    
