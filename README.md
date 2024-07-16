@@ -83,6 +83,6 @@ Our trained models are available [here](https://anu365-my.sharepoint.com/:f:/g/p
 
 
 ### Publications
-This work is submitted to ICLR 2024.  
+This work is accepted by ECCV 2024.  
 
 
