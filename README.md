@@ -66,21 +66,21 @@ We use two existing dataset to do the experiments: KITTI and VIGOR. For our coll
 
 3. Training on VIGOR:
     
-    python train_VIGOR_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same
+    python train_vigor_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same
    
-    python train_VIGOR_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross
+    python train_vigor_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross
    
-    python train_VIGOR_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same  --GPS_error_coe 1
+    python train_vigor_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same  --GPS_error_coe 1
    
-    python train_VIGOR_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross --GPS_error_coe 1
+    python train_vigor_2DoF.py --rotation_range 0 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross --GPS_error_coe 1
    
-    python train_VIGOR_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same
+    python train_vigor_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same
    
-    python train_VIGOR_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross
+    python train_vigor_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross
    
-    python train_VIGOR_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same --GPS_error_coe 1
+    python train_vigor_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area same --GPS_error_coe 1
    
-    python train_VIGOR_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross --GPS_error_coe 1
+    python train_vigor_2DoF.py --rotation_range 180 --share 0 --ConfGrd 1 --level 1 --Supervision Weakly --area cross --GPS_error_coe 1
    
    
    
