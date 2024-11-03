@@ -1,4 +1,4 @@
-# Weakly-supervised Camera Localization by Ground-to-satellite Image Registration, ICLR 2024 Submission
+# Weakly-supervised Camera Localization by Ground-to-satellite Image Registration
 
 ![Framework](./Framework.png)
 
