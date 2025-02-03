@@ -90,6 +90,8 @@ We use two existing dataset to do the experiments: KITTI and VIGOR. For our coll
 
     python train_kitti_3DoF.py --test 1
 
+### Clarification on "28m x 28m" and "56m x 56m" used as the search range in this paper:
+The longitudinal/lateral error of the ground image is set as an input argument at the beginning of this code. Since the satellite image is north-aligned, the actual location of the ground camera is within \pm max(longitudinal error, lateral error) * sqrt(2) meters to the satellite image center. Thus, the actual search region is max(longitudinal error, lateral error) * sqrt(2) * 2 square meters. This is reflected by code in L792-793 in model_kitti.py, where "3" approximates "2 * sqrt(2)". 
 
 
 ### Models:
