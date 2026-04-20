@@ -1,6 +1,10 @@
 # Weakly-supervised Camera Localization by Ground-to-satellite Image Registration
 
-![Framework](./Framework.png)
+Official implementation of the **ECCV 2024** paper: **[Weakly-supervised Camera Localization by Ground-to-satellite Image Registration](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01358.pdf)**
+
+[Yujiao Shi](https://yujiaoshi.github.io/), [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Akhil Perincherry](http://akhilperincherry.com/), and Ankit Vora
+
+![Framework](./framework.png)
 
 # Abstract
 The ground-to-satellite image matching/retrieval was initially proposed for city-scale ground camera localization. Recently, more and more attention has been paid to increasing the camera pose accuracy by ground-to-satellite image matching, once a coarse location and orientation has been obtained from the city-scale retrieval.  This paper addresses the same scenario. 
@@ -99,7 +103,17 @@ Our trained models are available [here](https://anu365-my.sharepoint.com/:f:/g/p
 
 
 
-### Publications
-This work is accepted by ECCV 2024.  
+### Citing
+
+```tex
+@inproceedings{shi2024weakly,
+  title={Weakly-supervised camera localization by ground-to-satellite image registration},
+  author={Shi, Yujiao and Li, Hongdong and Perincherry, Akhil and Vora, Ankit},
+  booktitle={European Conference on Computer Vision},
+  pages={39--57},
+  year={2024},
+  organization={Springer}
+}
+```  
 
 
